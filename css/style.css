@@ -4,10 +4,14 @@
 @import url("variable.css");
 /* components */
 @import url("components/status-bar.css");
-
+@import url("components/nav-bar.css");
+@import url("components/screen-header.css");
 /* Screens */
 @import url("screens/login.css");
+@import url("screens/friends.css");
 
 body{
+    color: #2F363E;  
     font-family: 'Open Sans', sans-serif;
+    
 }
