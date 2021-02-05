@@ -2,15 +2,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: var(--horizontal-space);
     padding-top: 50px;    
+    margin-bottom: 15px;
+        
 }
 
 .screen-header__title{
     font-size: 35px;
-    font-weight: 600;
+    font-weight: 600;    
+}
+
+.screen-header__icons{
+    position: relative;
 }
 
 .screen-header__icons span{
-    margin-left: 25px;
+    margin-left: 25px;    
+}
+
+.screen-header__badge{
+   position: absolute;  
+   left: 90px;
+   bottom: 30px;
 }
