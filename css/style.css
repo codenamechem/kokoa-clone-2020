@@ -12,6 +12,7 @@
 @import url("screens/login.css");
 @import url("screens/friends.css");
 @import url("screens/chats.css");
+@import url("screens/find.css");
 
 body{
     color: #2F363E;  
