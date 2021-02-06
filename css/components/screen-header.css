@@ -13,6 +13,11 @@
 }
 
 .screen-header__icons{
+    display: flex;
+    align-items: center;
+}
+
+.screen-header__icons-cog{
     position: relative;
 }
 
@@ -20,8 +25,8 @@
     margin-left: 25px;    
 }
 
-.screen-header__badge{
+.small-badge{
    position: absolute;  
-   left: 90px;
+   left: 30px;
    bottom: 30px;
 }
