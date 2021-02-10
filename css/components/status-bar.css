@@ -4,12 +4,13 @@
     padding: 5px 3px;
     position: fixed;
     width: 100%;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0);
     top: 0px;
 }
 
 .status-bar__column{
     width: 33%;
+    align-items: center;
 }
 
 
